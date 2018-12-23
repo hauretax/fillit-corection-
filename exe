@@ -6,18 +6,26 @@
 
 echo "---USAGE :---"
 ./fillit
-./fillit e-0 e-1
+./fillit corec/e-0 corec/e-1
 echo  "\n\n---bad file---"
 ./fillit sdfsdfsdfsd
 echo  "\n\n---no newline-e0---"
-./fillit e-0
+./fillit corec/e-0
 echo  "\n\n--bad forma-e1~3---"
-./fillit e-1
-./fillit e-2
-./fillit e-3
+./fillit corec/e-1
+./fillit corec/e-2
+./fillit corec/e-3
 echo  "\n\n--no more line?-e4---"
-./fillit e-4
-echo "\n\n--no less line?-e4---"
-./fillit e-5
-echo "\n\n--one good sqar"
-./fillit ../e-6
+./fillit corec/e-4
+echo "\n\n--no less line?-e5---"
+./fillit corec/e-5
+echo "\n\n--one good sqar-e6---"
+./fillit corec/e-6
+echo "\n\n--one good tetri-e7---"
+./fillit corec/e-7
+echo "\n\n--one good fix-e8---"
+./fillit corec/e-8
+echo "\n\n--one biger-e9---"
+./fillit corec/e-9
+echo "\n\n--one good time-10---"
+./fillit corec/e-10
