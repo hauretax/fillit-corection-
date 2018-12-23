@@ -1,8 +1,8 @@
-#norminette
-#make
-#make fclean
-#make
-#make re
+norminette
+make
+make fclean
+make
+make re
 
 echo "---USAGE :---"
 ./fillit
@@ -28,4 +28,4 @@ echo "\n\n--one good fix-e8---"
 echo "\n\n--one biger-e9---"
 ./fillit corec/e-9
 echo "\n\n--one good time-10---"
-./fillit corec/e-10
+time ./fillit corec/e-10
